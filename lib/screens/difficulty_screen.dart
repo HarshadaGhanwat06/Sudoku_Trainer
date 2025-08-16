@@ -7,7 +7,7 @@ class DifficultyScreen extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        //builder: (context) => SudokuBoardScreen(difficulty: difficulty, strategyExplanation: () {  },),
+        ///builder: (context) => SudokuBoardScreen(difficulty: difficulty, strategyExplanation: () {  },),
         builder: (context) => StrategySelectionScreen(difficulty: difficulty),
       ),
     );
