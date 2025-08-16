@@ -59,7 +59,7 @@ class SudokuGrid extends StatelessWidget {
             final bool isThickBottom = (row + 1) % 3 == 0 && row != 8;
             final bool isThickRight = (col + 1) % 3 == 0 && col != 8;
 
-            // Cell background color
+            //// Cell background color
             Color tileColor = const Color(0xFF1E1E1E);
             if (isFixed)
               tileColor = const Color(0xFF2A265F); // Deep purple-blue
