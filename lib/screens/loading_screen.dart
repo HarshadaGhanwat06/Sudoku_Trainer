@@ -34,7 +34,7 @@ class _LandingScreenState extends State<LandingScreen>
 
     _startTypewriterEffect();
 
-    // Go to next screen after delay
+    /// Go to next screen after delay
     Future.delayed(const Duration(seconds: 4), () {
       Navigator.of(context).pushReplacement(_createRoute());
     });
