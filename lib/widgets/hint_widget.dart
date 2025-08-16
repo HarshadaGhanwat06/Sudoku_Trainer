@@ -1,3 +1,4 @@
+//hint widget
 class HintSystem {
   static List<String> getHints(List<List<int>> board, List<List<int>> solution) {
     List<String> hints = [];
