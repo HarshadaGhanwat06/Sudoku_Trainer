@@ -20,7 +20,7 @@ class SudokuBoardScreen extends StatelessWidget {
   }) : super(key: key);
 
   // Inside your SudokuBoardScreen class, probably in a method that checks the board state
-  // This could be in a method that runs after each move, or in a "Check Solution" button callback
+  //// This could be in a method that runs after each move, or in a "Check Solution" button callback
 
   void checkGameCompletion(BuildContext context) {
     final provider = Provider.of<SudokuProvider>(context, listen: false);
