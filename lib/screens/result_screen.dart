@@ -29,7 +29,7 @@ class ResultScreen extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                final provider = Provider.of<SudokuProvider>(context, listen: false); // new added
+                final provider = Provider.of<SudokuProvider>(context, listen: false); /// new added
                 Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(builder: (context) => SudokuBoardScreen(difficulty: "medium", strategyExplanation:
